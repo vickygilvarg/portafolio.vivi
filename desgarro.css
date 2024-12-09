@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.barra {
+    width: 110px;
+    /* Ancho de la barra lateral */
+    background-color: rgb(202, 9, 9);
+    /* Color de fondo */
+    height: 100vh;
+    /* Altura completa de la ventana */
+    color: white;
+    /* Color del texto */
+    position: fixed;
+    /* Fija la barra lateral */
+    top: 0;
+    display: flex;
+    /* Usar flexbox para centrar el contenido */
+    flex-direction: column;
+    /* Alinea los elementos en columna */
+    align-items: center;
+    /* Centra horizontalmente */
+    justify-content: center;
+    /* Centra verticalmente */
+
+}
+
+.barra p {
+    margin: 40px 0;
+    /* Aumenta la separación entre los elementos */
+    color: white;
+    /* Color del texto */
+}
+.linea-horizontal {
+    width: 75%;
+    /* Ajusta el ancho de la línea */
+    height: 2px;
+    /* Altura de la línea */
+    background-color: white;
+    /* Color de la línea */
+    margin: 10px 0;
+    /* Márgenes arriba y abajo */
+    border-radius: 1px;
+    /* Bordes redondeados (opcional) */
+}
+.rey {
+    display: flex;
+    /* Activa el flexbox */
+    justify-content: center;
+    /* Centra horizontalmente */
+    gap: 20px;
+    /* Espacio entre las imágenes */
+    margin: 0 auto;
+    /* Asegúrate de que el contenedor esté centrado */
+    width: 70%;
+    /* Ancho del contenedor */
+    margin-top: 100px;
+    /* Espacio superior */
+}
+.cuadros {
+    display: flex;
+    /* Activa el flexbox */
+    justify-content: center;
+    /* Centra horizontalmente */
+    gap: 20px;
+    /* Espacio entre las imágenes */
+    margin: 0 auto;
+    /* Asegúrate de que el contenedor esté centrado */
+    width: 70%;
+    /* Ancho del contenedor */
+    margin-top: 2150px;
+    /* Espacio superior */
+}
+.cuadros figure {
+    text-align: center; /* Centra el texto debajo de la imagen */
+    margin: 0; /* Elimina el margen del figure */
+}
+
+.cuadros figcaption {
+    margin-top: 10px; /* Espacio entre la imagen y el nombre */
+    color: white; /* Color del texto (ajusta según tu diseño) */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+h1 {
+    color: white; /* Cambia el color del texto */
+    font-size: 36px; /* Tamaño de la fuente */
+    text-align: center; /* Centra el texto */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.p1{
+    margin: 0 500px;
+    /* Margen solo a los lados */
+    text-align: center;
+    /* Centra el texto en esta sección */
+
+    color: white;
+}
